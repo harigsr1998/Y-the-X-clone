@@ -8,13 +8,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="flex flex-col justify-between gap-[2px]">
-        <div className="flex justify-between">
+      <body className="flex h-screen flex-col justify-between gap-[2px] bg-gray-500 [&>*]:bg-black">
+        <div className="flex shrink-0 grow-0 justify-between">
           <div>Prof Pic</div>
-          <div>Settings</div>
+          <div>Dynamic Icons</div>
         </div>
-        <div>{children}</div>
-        <div className="flex justify-between">
+        <div className="grow">{children}</div>
+        <div className="flex shrink-0 grow-0 justify-between">
           <div>Home</div>
           <div>Search</div>
           <div>Communities</div>

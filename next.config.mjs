@@ -17,6 +17,11 @@ const nextConfig = {
         destination: "/communities/home/",
         permanent: true,
       },
+      {
+        source: "/notifications",
+        destination: "/notifications/all/",
+        permanent: true,
+      },
     ];
   },
 };

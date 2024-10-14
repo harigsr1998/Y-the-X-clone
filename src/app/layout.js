@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="flex h-screen flex-col justify-between gap-[2px] bg-slate-700/90 [&>*]:bg-black">
+      <body className="flex h-screen flex-col justify-between [&>*]:bg-black">
         <div className="flex h-[52px] shrink-0 grow-0 justify-between">
           <DynamicHeader />
         </div>

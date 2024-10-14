@@ -19,11 +19,11 @@ const DynamicHeader = () => {
       <div className="flex grow justify-between">
         {page === "home" && (
           <>
-            <div className="flex-[2] text-center text-2xl font-extrabold leading-[52px]">
+            <div className="flex-[2] text-center text-3xl font-extrabold leading-[52px]">
               Y
             </div>
             <div className="flex justify-between leading-[52px]">
-              <div className="absolute right-12">Upgrade</div>
+              <div className="absolute right-[52px]">Upgrade</div>
               <div>
                 <TbDotsVertical className="m-3 size-7" />
               </div>

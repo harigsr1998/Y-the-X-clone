@@ -1,11 +1,11 @@
 import TweetComponent from "@/components/tweet/TweetComponent";
 
 const HomeForYouPage = () => {
-  const tweets = Math.floor(Math.random() * 24 + 1);
+  const tweets = Math.floor(Math.random() * 24 + 10);
   const IndividualTweets = [];
 
   for (let index = 0; index < tweets; index++) {
-    IndividualTweets.push(<TweetComponent />);
+    IndividualTweets.push(<TweetComponent key={index} />);
   }
 
   return <div>{IndividualTweets}</div>;

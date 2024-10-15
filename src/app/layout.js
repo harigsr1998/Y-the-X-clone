@@ -15,8 +15,8 @@ export default function RootLayout({ children }) {
         <div className="flex h-[52px] shrink-0 grow-0 justify-between">
           <DynamicHeader />
         </div>
-        <div className="grow">{children}</div>
-        <div className="flex shrink-0 grow-0 justify-around">
+        <div className="grow overflow-y-scroll">{children}</div>
+        <div className="flex shrink-0 grow-0 justify-around border-t">
           <NavBar />
         </div>
       </body>

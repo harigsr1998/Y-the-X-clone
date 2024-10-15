@@ -54,7 +54,7 @@ const DynamicHeader = () => {
                   name="searchBar"
                   id="searchBar"
                   placeholder={`Search ${page === "search" ? "X" : "Direct Messages"}`}
-                  className="h-full w-full rounded-full bg-gray-500/70 px-3 text-gray-500"
+                  className="h-full w-full rounded-full bg-gray-500/30 px-3 text-gray-400"
                 />
               </div>
             ) : (

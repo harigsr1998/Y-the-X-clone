@@ -24,7 +24,7 @@ const NavBar = () => {
       </Link>
       <Link href="/communities">
         <TbUsers
-          className={`m-3 size-7 stroke-[1.5] ${page === "communities" && "fill-current"}`}
+          className={`m-3 size-7 stroke-2 ${page === "communities" && "fill-current"}`}
         />
       </Link>
       <Link href="/notifications">

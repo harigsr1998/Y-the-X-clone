@@ -1,7 +1,8 @@
 const tweets = [
   {
     id: 1,
-    adFlag: false,
+    adFlag: true,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: false, user: "" },
     tweetBy: { profileName: "Poem A T'hletics", username: "poema_thletics09" },
@@ -19,7 +20,8 @@ const tweets = [
   },
   {
     id: 2,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "boeingweeping" },
     tweetBy: { profileName: "Frai D'perception", username: "fra1d@percepti0n" },
@@ -37,12 +39,13 @@ const tweets = [
   },
   {
     id: 3,
-    adFlag: false,
+    adFlag: true,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: false, user: "" },
     tweetBy: { profileName: "Alarmed Arrival", username: "alarmedarrival" },
     tweetContent: {
-      imageFlag: true,
+      imageFlag: false,
       text: "",
       images: [],
       stats: {
@@ -55,7 +58,8 @@ const tweets = [
   },
   {
     id: 4,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: false,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "receptioncounter" },
     tweetBy: { profileName: "Wideeyedbat", username: "wide👁️dbat🦇🦇🦇" },
@@ -73,7 +77,8 @@ const tweets = [
   },
   {
     id: 5,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "arisenature" },
     tweetBy: {
@@ -95,11 +100,12 @@ const tweets = [
   {
     id: 6,
     adFlag: false,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: false, user: "" },
     tweetBy: { profileName: "Kindly Kensure", username: "kindlykkkkkensure" },
     tweetContent: {
-      imageFlag: true,
+      imageFlag: false,
       text: "",
       images: [],
       stats: {
@@ -112,12 +118,13 @@ const tweets = [
   },
   {
     id: 7,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "sensualwhirlwind" },
     tweetBy: { profileName: "Zipper Aircraft", username: "zipperaircraft" },
     tweetContent: {
-      imageFlag: true,
+      imageFlag: false,
       text: "",
       images: [],
       stats: {
@@ -130,7 +137,8 @@ const tweets = [
   },
   {
     id: 8,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "malboromarbled" },
     tweetBy: { profileName: "Step Opening", username: "33stepOpening" },
@@ -148,7 +156,8 @@ const tweets = [
   },
   {
     id: 9,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: false,
     timestamp: 234324234234,
     repost: { repostFlag: false, user: "" },
     tweetBy: { profileName: "Mayor Bridge", username: "👨‍💼bridge" },
@@ -166,7 +175,8 @@ const tweets = [
   },
   {
     id: 10,
-    adFlag: false,
+    adFlag: true,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "ferryearnings" },
     tweetBy: { profileName: "Imply Setting", username: "_imply53tt1n8" },
@@ -184,12 +194,13 @@ const tweets = [
   },
   {
     id: 11,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: false,
     timestamp: 234324234234,
     repost: { repostFlag: false, user: "" },
     tweetBy: { profileName: "Chest Plate", username: "chestplate_leap" },
     tweetContent: {
-      imageFlag: true,
+      imageFlag: false,
       text: "",
       images: [],
       stats: {
@@ -202,7 +213,8 @@ const tweets = [
   },
   {
     id: 12,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: false,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "whirrquiver" },
     tweetBy: { profileName: "Arise Nature", username: "arise_99nature" },
@@ -220,12 +232,13 @@ const tweets = [
   },
   {
     id: 13,
-    adFlag: false,
+    adFlag: true,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "humassess" },
     tweetBy: { profileName: "Whir R Quiver", username: "whirringquiver" },
     tweetContent: {
-      imageFlag: true,
+      imageFlag: false,
       text: "",
       images: [],
       stats: {
@@ -238,7 +251,8 @@ const tweets = [
   },
   {
     id: 14,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "questionmilky" },
     tweetBy: { profileName: "Unicorn Mallet", username: "unicorn_mal" },
@@ -256,7 +270,8 @@ const tweets = [
   },
   {
     id: 15,
-    adFlag: false,
+    adFlag: true,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: false, user: "" },
     tweetBy: { profileName: "Malboro Marbled", username: "malbortheomarbled" },
@@ -274,7 +289,8 @@ const tweets = [
   },
   {
     id: 16,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: false,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "hopekellogs" },
     tweetBy: {
@@ -282,7 +298,7 @@ const tweets = [
       username: "theshadedgovernment",
     },
     tweetContent: {
-      imageFlag: true,
+      imageFlag: false,
       text: "",
       images: [],
       stats: {
@@ -295,7 +311,8 @@ const tweets = [
   },
   {
     id: 17,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: false,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "structureleague" },
     tweetBy: {
@@ -303,7 +320,7 @@ const tweets = [
       username: "sensualwhirlwindstories",
     },
     tweetContent: {
-      imageFlag: true,
+      imageFlag: false,
       text: "",
       images: [],
       stats: {
@@ -316,7 +333,8 @@ const tweets = [
   },
   {
     id: 18,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "taboocheckup" },
     tweetBy: { profileName: "Freya Earnings", username: "ferryearnings" },
@@ -334,7 +352,8 @@ const tweets = [
   },
   {
     id: 19,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: false,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "irritabletrice" },
     tweetBy: { profileName: "Structure League", username: "structureleague" },
@@ -353,6 +372,7 @@ const tweets = [
   {
     id: 20,
     adFlag: false,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: false, user: "" },
     tweetBy: { profileName: "Irritable Trice", username: "1rr1t@bl3tr1c3" },
@@ -370,7 +390,8 @@ const tweets = [
   },
   {
     id: 21,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "flatbreadsurprise" },
     tweetBy: { profileName: "Questioning Milkyway", username: "questionmilky" },
@@ -388,12 +409,13 @@ const tweets = [
   },
   {
     id: 22,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: false,
     timestamp: 234324234234,
     repost: { repostFlag: false, user: "" },
     tweetBy: { profileName: "Supreme Outrage", username: "supremeoutraged" },
     tweetContent: {
-      imageFlag: true,
+      imageFlag: false,
       text: "",
       images: [],
       stats: {
@@ -406,12 +428,13 @@ const tweets = [
   },
   {
     id: 23,
-    adFlag: false,
+    adFlag: true,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "lutchetarray" },
     tweetBy: { profileName: "Flat Bread", username: "flatbreadsurprise" },
     tweetContent: {
-      imageFlag: true,
+      imageFlag: false,
       text: "",
       images: [],
       stats: {
@@ -424,7 +447,8 @@ const tweets = [
   },
   {
     id: 24,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: false,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "betweensnip" },
     tweetBy: { profileName: "Between Snip", username: "betweensniping" },
@@ -442,7 +466,8 @@ const tweets = [
   },
   {
     id: 25,
-    adFlag: false,
+    adFlag: true,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: false, user: "" },
     tweetBy: { profileName: "Hope For Kellogs", username: "hope4kellogs" },
@@ -460,7 +485,8 @@ const tweets = [
   },
   {
     id: 26,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "jibeplain" },
     tweetBy: {
@@ -468,7 +494,7 @@ const tweets = [
       username: "senatorskeletonizer",
     },
     tweetContent: {
-      imageFlag: true,
+      imageFlag: false,
       text: "",
       images: [],
       stats: {
@@ -481,7 +507,8 @@ const tweets = [
   },
   {
     id: 27,
-    adFlag: false,
+    adFlag: true,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "figureinstance" },
     tweetBy: {
@@ -502,7 +529,8 @@ const tweets = [
   },
   {
     id: 28,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: false,
     timestamp: 234324234234,
     repost: { repostFlag: false, user: "" },
     tweetBy: {
@@ -523,12 +551,13 @@ const tweets = [
   },
   {
     id: 29,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: false,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "chairliftwrack" },
     tweetBy: { profileName: "Figure Instance", username: "figureofinstance" },
     tweetContent: {
-      imageFlag: true,
+      imageFlag: false,
       text: "",
       images: [],
       stats: {
@@ -541,12 +570,13 @@ const tweets = [
   },
   {
     id: 30,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: false,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "hopekellogs" },
     tweetBy: { profileName: "Saddle meet ball", username: "saddlemeatball" },
     tweetContent: {
-      imageFlag: true,
+      imageFlag: false,
       text: "",
       images: [],
       stats: {
@@ -560,6 +590,7 @@ const tweets = [
   {
     id: 31,
     adFlag: false,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: false, user: "" },
     tweetBy: { profileName: "Humassess", username: "humassessessessess" },
@@ -577,7 +608,8 @@ const tweets = [
   },
   {
     id: 32,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: true,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "lodgepublicly" },
     tweetBy: {
@@ -598,7 +630,8 @@ const tweets = [
   },
   {
     id: 33,
-    adFlag: true,
+    adFlag: false,
+    verifiedFlag: false,
     timestamp: 234324234234,
     repost: { repostFlag: true, user: "gymnasiumbucket" },
     tweetBy: { profileName: "Smelly Diaper", username: "smelldiaper" },
@@ -616,9 +649,10 @@ const tweets = [
   },
   {
     id: 34,
-    adFlag: false,
+    adFlag: true,
+    verifiedFlag: true,
     timestamp: 234324234234,
-    repost: { repostFlag: true, user: "" },
+    repost: { repostFlag: true, user: "mentalgymnasium" },
     tweetBy: { profileName: "Impossible Show", username: "imposeshow" },
     tweetContent: {
       imageFlag: true,

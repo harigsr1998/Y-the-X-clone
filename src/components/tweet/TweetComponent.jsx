@@ -1,13 +1,18 @@
 import Link from "next/link";
 
-import { CgProfile } from "react-icons/cg";
-import TweetFooter from "./TweetFooter";
 import TweetHeader from "./TweetHeader";
 import TweetHeaderActions from "./TweetHeaderActions";
 import TweetRepostHeader from "./TweetRepostHeader";
 import TweetImage from "./TweetImage";
+import TweetProfilePic from "./TweetProfilePic";
 
-const TweetComponent = ({ id, tweet }) => {
+import dynamic from "next/dynamic";
+
+const TweetFooter = dynamic(import("@/components/tweet/TweetFooter"), {
+  ssr: false,
+});
+
+const TweetComponent = async ({ id, tweet }) => {
   return (
     tweet && (
       <div className="border-y px-3 pb-3 pt-2">
@@ -15,12 +20,13 @@ const TweetComponent = ({ id, tweet }) => {
           <TweetRepostHeader repost={tweet.repost.user} />
         )}
         <Link href="/individualtweet" className="flex gap-2">
-          <div className="shrink-0 grow-0">
-            <CgProfile className="size-9" />
-          </div>
+          <TweetProfilePic id={id} />
           <div className="flex grow-0 flex-col gap-1">
             <div className="flex justify-between gap-1">
-              <TweetHeader tweetBy={tweet.tweetBy} />
+              <TweetHeader
+                tweetBy={tweet.tweetBy}
+                verifiedFlag={tweet.verifiedFlag}
+              />
               <TweetHeaderActions adFlag={tweet.adFlag} />
             </div>
             <div>

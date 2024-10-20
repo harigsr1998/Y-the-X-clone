@@ -10,19 +10,19 @@ const TweetFooter = () => {
     <div className="flex justify-between">
       <div className="flex items-center gap-1">
         <BiMessageRounded />
-        num
+        {Math.floor(Math.random() * 100)}
       </div>
       <div className="flex items-center gap-1">
         <FaRetweet />
-        num
+        {Math.floor(Math.random() * 100)}
       </div>
       <div className="flex items-center gap-1">
         <FaRegHeart />
-        num
+        {Math.floor(Math.random() * 90)}
       </div>
       <div className="flex items-center gap-1">
         <FiBarChart2 />
-        num
+        {Math.floor(Math.random() * 300)}
       </div>
       <div className="flex items-center gap-2">
         <div>

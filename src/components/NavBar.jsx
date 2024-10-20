@@ -34,7 +34,7 @@ const NavBar = () => {
       </Link>
       <Link href="/messages">
         <GoMail
-          className={`m-3 size-7 ${page === "messages" && "stroke-[1.5]"}`}
+          className={`m-3 size-7 stroke-[0.5] ${page === "messages" && "stroke-[1.5]"}`}
         />
       </Link>
     </>

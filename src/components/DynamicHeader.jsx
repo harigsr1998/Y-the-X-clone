@@ -6,15 +6,21 @@ import { usePathname } from "next/navigation";
 import { RxGear } from "react-icons/rx";
 import { FiSearch } from "react-icons/fi";
 import { TbUsersPlus, TbDotsVertical } from "react-icons/tb";
-import { CgProfile } from "react-icons/cg";
+import Image from "next/image";
 
 const DynamicHeader = () => {
   const page = usePathname().split("/")[1];
 
   return (
     <>
-      <div className="shrink-0 grow-0">
-        <CgProfile className="m-3 size-7" />
+      <div className="m-2 h-7 w-7 shrink-0 grow-0 self-center overflow-hidden rounded-full">
+        <Image
+          src={"/avatar/HG.jpg"}
+          width={28}
+          height={28}
+          alt="User profile picture"
+          className="object-contain"
+        />
       </div>
       <div className="flex grow justify-between">
         {page === "home" && (
@@ -23,7 +29,7 @@ const DynamicHeader = () => {
               Y
             </div>
             <div className="flex justify-between leading-[52px]">
-              <div className="absolute right-[52px]">Upgrade</div>
+              <div className="absolute right-[52px] xl:left-[18%]">Upgrade</div>
               <div>
                 <TbDotsVertical className="m-3 size-7" />
               </div>
